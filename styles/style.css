@@ -132,13 +132,10 @@
   inset-inline-end: 13px;
   inset-block-start: 24px;
   mix-blend-mode: hard-light;
-}
-
-.card-img-watermark {
   text-shadow: -1px 0 var(--page-background-color, #fff),
-    0 1px var(--page-background-color, #fff),
-    1px 0 var(--page-background-color, #fff),
-    0 -1px var(--page-background-color, #fff);
+  0 1px var(--page-background-color, #fff),
+  1px 0 var(--page-background-color, #fff),
+  0 -1px var(--page-background-color, #fff);
 }
 
 @supports ((text-stroke: 1px #000000) or (-webkit-text-stroke: 1px #000000)) {
