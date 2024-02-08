@@ -134,21 +134,20 @@
   mix-blend-mode: hard-light;
 }
 
-p {
-  text-shadow:
-  -1px 0 var(--page-background-color, #fff), 
- 0 1px var(--page-background-color, #fff), 
- 1px 0 var(--page-background-color, #fff), 
- 0 -1px var(--page-background-color, #fff);
+.card-img-watermark {
+  text-shadow: -1px 0 var(--page-background-color, #fff),
+    0 1px var(--page-background-color, #fff),
+    1px 0 var(--page-background-color, #fff),
+    0 -1px var(--page-background-color, #fff);
 }
 
-@supports((text-stroke: 1px #000000) or (-webkit-text-stroke: 1px #000000)) {
-  p {
-      -webkit-text-stroke: 1px var(--page-background-color, #fff);
-      text-stroke: 1px var(--page-background-color, #fff);
-      text-shadow: none;
+@supports ((text-stroke: 1px #000000) or (-webkit-text-stroke: 1px #000000)) {
+  .card-img-watermark {
+    -webkit-text-stroke: 1px var(--page-background-color, #fff);
+    text-stroke: 1px var(--page-background-color, #fff);
+    text-shadow: none;
   }
-} 
+}
 
 .card-text {
   display: grid;
@@ -431,4 +430,10 @@ p {
 
 .filter-multiple {
   filter: brightness(30%) hue-rotate(180deg) saturate(400%);
+}
+
+@media (width <= 375px) {
+  .button-footer {
+    flex-direction: column;
+  }
 }
