@@ -131,9 +131,24 @@
   font-size: 14px;
   inset-inline-end: 13px;
   inset-block-start: 24px;
-  -webkit-text-stroke: 1px var(--page-background-color, #fff);
   mix-blend-mode: hard-light;
 }
+
+p {
+  text-shadow:
+  -1px 0 var(--page-background-color, #fff), 
+ 0 1px var(--page-background-color, #fff), 
+ 1px 0 var(--page-background-color, #fff), 
+ 0 -1px var(--page-background-color, #fff);
+}
+
+@supports((text-stroke: 1px #000000) or (-webkit-text-stroke: 1px #000000)) {
+  p {
+      -webkit-text-stroke: 1px var(--page-background-color, #fff);
+      text-stroke: 1px var(--page-background-color, #fff);
+      text-shadow: none;
+  }
+} 
 
 .card-text {
   display: grid;
@@ -255,7 +270,6 @@
 
 .button-footer {
   background: var(--page-background-color);
-  border: none;
   border: 2px solid var(--text-color, #000000);
   display: flex;
   flex-direction: row;
