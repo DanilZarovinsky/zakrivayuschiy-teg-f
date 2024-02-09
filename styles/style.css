@@ -94,11 +94,11 @@
   margin-block-end: 20px;
 }
 
-.header-title:focus-visible{
+.header-title:focus-visible {
   outline: none;
 }
 
-.header-title-link:focus-visible{
+.header-title-link:focus-visible {
   outline: none;
 }
 
@@ -117,7 +117,7 @@
   font-size: 18px;
   line-height: normal;
   font-variation-settings: "wght" var(--headings-font-weight, 700);
-  border-block-end: 2px solid var(--text-color, #000000);;
+  border-block-end: 2px solid var(--text-color, #000000);
 }
 
 .card-img {
@@ -143,9 +143,9 @@
   inset-block-start: 24px;
   mix-blend-mode: hard-light;
   text-shadow: -1px 0 var(--page-background-color, #fff),
-  0 1px var(--page-background-color, #fff),
-  1px 0 var(--page-background-color, #fff),
-  0 -1px var(--page-background-color, #fff);
+    0 1px var(--page-background-color, #fff),
+    1px 0 var(--page-background-color, #fff),
+    0 -1px var(--page-background-color, #fff);
 }
 
 @supports ((text-stroke: 1px #000000) or (-webkit-text-stroke: 1px #000000)) {
