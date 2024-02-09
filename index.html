@@ -18,7 +18,7 @@
   </head>
   <body class="page">
     <header class="header card">
-      <span class="header-title">&lt;/HTML&gt;</span>
+      <span class="header-title"><a class="header-title-link">&lt;/HTML&gt;</a></span>
       <h1 class="header-subtitle">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <ul class="theme-menu__list">
@@ -52,7 +52,9 @@
             Фритрек и нулевой спринт: Подготовка к работе
           </h2>
           <div class="card-img-wrapper">
-            <span class="card-img-watermark" aria-hidden="true">&lt;/HTML&gt;</span>
+            <span class="card-img-watermark" aria-hidden="true"
+              >&lt;/HTML&gt;</span
+            >
             <img
               class="card-img blur"
               src="./images/image.png"
@@ -103,7 +105,9 @@
         <li class="card-list-item card">
           <h2 class="card-title">1 спринт: Я — чистый лист</h2>
           <div class="card-img-wrapper">
-            <span class="card-img-watermark" aria-hidden="true">&lt;/HTML&gt;</span>
+            <span class="card-img-watermark" aria-hidden="true"
+              >&lt;/HTML&gt;</span
+            >
             <img
               class="card-img contrast"
               src="./images/blank-slate.jpg"
@@ -157,7 +161,9 @@
         <li class="card-list-item card">
           <h2 class="card-title">1 спринт: А если не получится?</h2>
           <div class="card-img-wrapper">
-            <span class="card-img-watermark" aria-hidden="true">&lt;/HTML&gt;</span>
+            <span class="card-img-watermark" aria-hidden="true"
+              >&lt;/HTML&gt;</span
+            >
             <img
               class="card-img grayscale"
               src="./images/martin.jpg"
@@ -209,7 +215,9 @@
         <li class="card-list-item card">
           <h2 class="card-title">2 спринт: Погоня за идеалом</h2>
           <div class="card-img-wrapper">
-            <span class="card-img-watermark" aria-hidden="true">&lt;/HTML&gt;</span>
+            <span class="card-img-watermark" aria-hidden="true"
+              >&lt;/HTML&gt;</span
+            >
             <img
               class="card-img saturate"
               src="./images/window.jpg"
@@ -266,7 +274,9 @@
         <li class="card-list-item card">
           <h2 class="card-title">2 спринт: О тех, кто рядом</h2>
           <div class="card-img-wrapper">
-            <span class="card-img-watermark" aria-hidden="true">&lt;/HTML&gt;</span>
+            <span class="card-img-watermark" aria-hidden="true"
+              >&lt;/HTML&gt;</span
+            >
             <img
               class="card-img hue-rotate"
               src="./images/family.jpg"
@@ -321,7 +331,9 @@
         <li class="card-list-item card">
           <h2 class="card-title">3 спринт: Обходные стратегии</h2>
           <div class="card-img-wrapper">
-            <span class="card-img-watermark" aria-hidden="true">&lt;/HTML&gt;</span>
+            <span class="card-img-watermark" aria-hidden="true"
+              >&lt;/HTML&gt;</span
+            >
             <img
               class="card-img sepia"
               src="./images/workaround-strategies.jpg"
@@ -378,11 +390,13 @@
         <li class="card-list-item card">
           <h2 class="card-title">3 спринт: Когда опускаются руки</h2>
           <div class="card-img-wrapper">
-            <span class="card-img-watermark" aria-hidden="true">&lt;/HTML&gt;</span>
+            <span class="card-img-watermark" aria-hidden="true"
+              >&lt;/HTML&gt;</span
+            >
             <img
               class="card-img invert"
               src="./images/never-give-up.jpg"
-              alt=""
+              alt="никогда не сдавайся"
               loading="lazy"
             />
           </div>
@@ -435,7 +449,9 @@
         <li class="card-list-item card">
           <h2 class="card-title">«Сейчас я здесь»</h2>
           <div class="card-img-wrapper">
-            <span class="card-img-watermark" aria-hidden="true">&lt;/HTML&gt;</span>
+            <span class="card-img-watermark" aria-hidden="true"
+              >&lt;/HTML&gt;</span
+            >
             <img
               class="card-img filter-multiple"
               src="./images/happy.jpg"
@@ -513,13 +529,14 @@
         </svg>
         <span class="dialog-text">Вставьте дискету,чтобы продолжить</span>
       </div>
+      <form method="dialog">
       <button
         class="modal-button"
-        onclick="window['modal'].close()"
         type="submit"
       >
         <span class="modal-button-text">OK</span>
       </button>
+    </form>
     </dialog>
     <script src="./scripts/like.js"></script>
   </body>
