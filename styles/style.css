@@ -19,7 +19,7 @@
   position: relative;
   display: grid;
   gap: 8px;
-  line-height:115%;
+  line-height: 115%;
 }
 
 .theme-menu__button {
@@ -29,7 +29,7 @@
   position: relative;
   transition: opacity 0.3s ease;
   text-transform: uppercase;
-font-size: 14px;
+  font-size: 14px;
 }
 
 .theme-menu__button::after {
@@ -99,8 +99,6 @@ font-size: 14px;
 .header-title:focus-visible {
   outline: none;
 }
-
-
 
 .main {
   display: grid;
@@ -329,7 +327,7 @@ font-size: 14px;
   border: 2px solid var(--text-color);
   background-color: var(--page-background-color);
   max-inline-size: 355px;
-  padding:30px;
+  padding: 30px;
   max-width: 353px;
 }
 
@@ -452,8 +450,7 @@ font-size: 14px;
     inline-size: 28px;
   }
 
-.modal{
-max-width: 341px;
+  .modal {
+    max-width: 341px;
+  }
 }
-}
-
