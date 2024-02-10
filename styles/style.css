@@ -11,7 +11,7 @@
 }
 
 .theme-menu {
-  margin-block: 25px;
+  margin-block: 23px;
 }
 
 .theme-menu__list {
@@ -19,6 +19,7 @@
   position: relative;
   display: grid;
   gap: 8px;
+  line-height:115%;
 }
 
 .theme-menu__button {
@@ -28,6 +29,7 @@
   position: relative;
   transition: opacity 0.3s ease;
   text-transform: uppercase;
+font-size: 14px;
 }
 
 .theme-menu__button::after {
@@ -98,9 +100,7 @@
   outline: none;
 }
 
-.header-title-link:focus-visible {
-  outline: none;
-}
+
 
 .main {
   display: grid;
@@ -126,6 +126,7 @@
   object-position: center;
   inline-size: 100%;
   max-height: 692px;
+  aspect-ratio: 1 / 1;
 }
 
 .card-img-wrapper {
@@ -139,8 +140,8 @@
   color: var(--text-color, #000000);
   font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
   font-size: 14px;
-  inset-inline-end: 23px;
-  inset-block-start: 24px;
+  inset-inline-end: 20px;
+  inset-block-start: 27px;
   mix-blend-mode: hard-light;
   text-shadow: -1px 0 var(--page-background-color, #fff),
     0 1px var(--page-background-color, #fff),
@@ -162,6 +163,7 @@
   border-block-start: 2px solid var(--text-color, #000000);
   padding: 25px 30px 0 25px;
   font-size: 18px;
+  line-height: 130%;
 }
 
 .card-footer {
@@ -327,8 +329,8 @@
   border: 2px solid var(--text-color);
   background-color: var(--page-background-color);
   max-inline-size: 355px;
-
-  padding: 25px 30px;
+  padding:30px;
+  max-width: 353px;
 }
 
 .modal[open] {
@@ -445,8 +447,13 @@
   .button-footer {
     flex-direction: column;
   }
-  .button__icon {
+  .floppy-icon {
     block-size: 28px;
     inline-size: 28px;
+  }
+
+.modal{
+max-width: 341px;
 }
 }
+
