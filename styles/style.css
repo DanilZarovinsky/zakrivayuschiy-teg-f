@@ -18,7 +18,7 @@
   padding-left: 20px;
   position: relative;
   display: grid;
-  gap: 8px;
+  gap: 9px;
   line-height: 115%;
 }
 
@@ -159,9 +159,9 @@
   display: grid;
   gap: 27px;
   border-block-start: 2px solid var(--text-color, #000000);
-  padding: 25px 30px 0 25px;
+  padding: 25px 25px 0 25px;
   font-size: 18px;
-  line-height: 130%;
+  line-height: 21px;
 }
 
 .card-footer {
@@ -452,5 +452,10 @@
 
   .modal {
     max-width: 341px;
+  }
+
+  .card-img-watermark{
+    inset-inline-end: 11px;
+    inset-block-start: 24px;
   }
 }
