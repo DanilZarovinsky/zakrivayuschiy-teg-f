@@ -1,1 +1,1 @@
-https://danilzarovinsky.github.io/zakrivayuschiy-teg-f/
+https://github.com/DanilZarovinsky/zakrivayuschiy-teg-f
